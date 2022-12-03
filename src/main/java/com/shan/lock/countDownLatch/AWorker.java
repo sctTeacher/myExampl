@@ -18,8 +18,8 @@ public class AWorker implements Runnable {
 	        try {    
 	            System.out.println(this.id +" 准备 !");
 	            begin.await();    
-	            // run��    
-	            Thread.sleep((long) (Math.random() * 10000));    
+	            // run。。。
+	            Thread.sleep((long) (Math.random() * 10000));
 	        } catch (Throwable e) {    
 	            e.printStackTrace();    
 	        } finally {    

@@ -7,7 +7,7 @@ package com.shan.dongtai;
  */
 public class Test1 {
 
-	//abc  cba �ݹ�ʵ���ַ�����ת
+	//abc  cba 递归实现字符串翻转
 	public static String revice(String str){
 		if(str==null||str.length()<=1){
 			return str;
